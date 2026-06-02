@@ -193,7 +193,7 @@ opt_iterations = st.sidebar.slider("Optimization Search Iterations", 50, 1000, 2
 
 # Reset Button
 if st.sidebar.button("Reset to Scenario Defaults"):
-    st.experimental_rerun()
+    st.rerun()
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 📋 Physical Parameters")
